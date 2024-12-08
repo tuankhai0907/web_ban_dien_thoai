@@ -1,0 +1,239 @@
+
+body {
+    color: black; /* Đặt màu chữ thành màu đen */
+  }
+a {
+    color: black; /* Đặt màu của link thành màu đen */
+}
+.container {
+    border: 0,5px solid #e0e0e0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.container p {
+   
+    line-height: 1.6;
+}
+
+
+.logo-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .logo-text:hover {
+    color: #007bff; /* Màu khi hover */
+  }
+/* Tùy chỉnh màu nền Navbar */
+.navbar {
+    background-color: aliceblue;
+    border: 1px solid #dee2e6;
+   
+}
+.navbar {
+    color: black; /* Đặt màu chữ của navbar thành màu đen */
+  }
+  /* Tùy chỉnh thanh tìm kiếm */
+ 
+.custom-input {
+    border-radius: 20px; /* Bo tròn viền input */
+    padding: 8px 20px; /* Tăng khoảng cách giữa nội dung và viền */
+
+}
+.custom-input {
+    width: 600px; /* Thiết lập chiều rộng của input là 600px */
+}
+
+.btn {
+   
+    color: #fff; /* Màu chữ của nút */
+    border-radius: 20px; /* Bo tròn viền nút */
+    padding: 8px 20px; /* Tăng khoảng cách giữa nội dung và viền */
+}
+.flex-column-menu{
+    background-color: #ffd400;
+}
+.nav-item {
+    margin: 20px; /* Thêm khoảng cách dưới cho mỗi thẻ <li> */
+    font-size: 20px;
+    margin-right: 30px;
+  }
+.carousel-inner{
+    margin-right: 20px;
+    width: 100%;
+    border: 1px solid wheat;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filter-container {
+    display: flex;
+    margin-top: 8px;
+}
+.filter-container .form-group {
+    margin: 5px; /* Khoảng cách giữa các bộ lọc */
+    border: 2px solid #333;
+  }
+  
+.card-text{
+    color: red;
+}
+.card-img-top {
+    transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+.list-group-item{
+    font-size: 12px;
+}
+
+select {
+    width: 100px; /* Thiết lập chiều rộng */
+    padding: 5px; /* Thiết lập padding */
+    font-size: 14px; /* Thiết lập kích cỡ chữ */
+  }
+
+footer {
+    background-color: white;
+    margin-top: 20px; /* Khoảng cách với phần tử phía trên */
+    padding: 20px 0; /* Padding cho footer */
+    color: black;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+footer h5 {
+    margin-bottom: 10px; /* Khoảng cách bottom cho tiêu đề h5 */
+}
+
+footer p, footer li {
+    margin-bottom: 5px; /* Khoảng cách bottom cho đoạn văn bản và danh sách */
+    font-size: 14px;
+}
+
+footer a {
+    margin-right: 10px; /* Khoảng cách giữa các liên kết */
+    color: black;
+    font-size: 14px;
+}
+footer a i {
+    font-size: 3rem; /* Điều chỉnh kích thước của icons tại đây */
+}
+.btn-icon {
+    border: none; /* Bỏ viền */
+    background: none; /* Bỏ nền */
+    padding: 0; /* Bỏ padding */
+}
+.fixed-cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group1 {
+    margin: 3px;
+   border: 1px solid #333;
+}
+
+.form-control {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-icon {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-icon i {
+    font-size: 18px;
+}
+
+/*sss*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.pagination li {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #333;
+    padding: 3px 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pagination li.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+
+.login-item{
+    margin-bottom: 25px;
+    font-size: 20px;
+   
+}
+.custom-button{
+    border: none;
+    background-color: aliceblue;
+}
+.custom-button:hover {
+    border: none;
+}
+
+.toast {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999; /* Đảm bảo toast hiển thị trên cùng của các phần khác */
+}

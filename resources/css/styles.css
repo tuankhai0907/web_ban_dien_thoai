@@ -1,0 +1,115 @@
+
+body {
+    color: black; /* Đặt màu chữ thành màu đen */
+  }
+a {
+    color: black; /* Đặt màu của link thành màu đen */
+}
+
+.logo-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .logo-text:hover {
+    color: #007bff; /* Màu khi hover */
+  }
+/* Tùy chỉnh màu nền Navbar */
+.navbar {
+    background-color: aliceblue;
+    border: 1px solid #dee2e6;
+   
+}
+.navbar {
+    color: black; /* Đặt màu chữ của navbar thành màu đen */
+  }
+  /* Tùy chỉnh thanh tìm kiếm */
+ 
+.custom-input {
+    border-radius: 20px; /* Bo tròn viền input */
+    padding: 8px 20px; /* Tăng khoảng cách giữa nội dung và viền */
+
+}
+.custom-input {
+    width: 600px; /* Thiết lập chiều rộng của input là 600px */
+}
+
+.btn {
+    background-color: #007bff; /* Màu nền của nút */
+    color: #fff; /* Màu chữ của nút */
+    border-radius: 20px; /* Bo tròn viền nút */
+    padding: 8px 20px; /* Tăng khoảng cách giữa nội dung và viền */
+}
+.flex-column-menu{
+    background-color: #fff;
+}
+.nav-item {
+    margin: 20px; /* Thêm khoảng cách dưới cho mỗi thẻ <li> */
+    font-size: 20px;
+    margin-right: 30px;
+  }
+.carousel-inner{
+    margin-right: 20px;
+    width: 100%;
+    border: 1px solid wheat;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filter-container {
+    display: flex;
+}
+.filter-container .form-group {
+    margin: 10px; /* Khoảng cách giữa các bộ lọc */
+  }
+  
+.card-text{
+    color: red;
+}
+.list-group-item{
+    font-size: 12px;
+}
+
+select {
+    width: 100px; /* Thiết lập chiều rộng */
+    padding: 5px; /* Thiết lập padding */
+    font-size: 14px; /* Thiết lập kích cỡ chữ */
+  }
+
+footer {
+    background-color: white;
+    margin-top: 20px; /* Khoảng cách với phần tử phía trên */
+    padding: 20px 0; /* Padding cho footer */
+    color: black;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+footer h5 {
+    margin-bottom: 10px; /* Khoảng cách bottom cho tiêu đề h5 */
+}
+
+footer p, footer li {
+    margin-bottom: 5px; /* Khoảng cách bottom cho đoạn văn bản và danh sách */
+    font-size: 12px;
+}
+
+footer a {
+    margin-right: 10px; /* Khoảng cách giữa các liên kết */
+    color: black;
+    font-size: 14px;
+}
+footer a i {
+    font-size: 3rem; /* Điều chỉnh kích thước của icons tại đây */
+}
+
+
+
+
+  

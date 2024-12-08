@@ -1,0 +1,52 @@
+
+.show {
+    width: 70%; /* Điều chỉnh độ rộng của card */
+    margin-top: 10px;
+    
+}
+
+.show-img-top {
+    width: 40%; /* Đặt chiều rộng của hình ảnh */
+    flex-shrink: 0; /* Không co lại hình ảnh */
+    /* border: 2px solid black; Thêm đường viền cho hình ảnh (2px độ dày, màu đen) */
+}
+
+.show-body {
+   
+    margin-left:40px ;
+    padding: 40px; /* Padding bên trong card */
+    display: flex; /* Xếp các phần tử bên trong theo hàng ngang */
+    flex-direction: column; /* Xếp các phần tử bên trong theo chiều dọc */
+    margin-left: 10px;
+    border: 1px solid wheat;
+    
+}
+
+.show {
+    position: relative; /* Đặt vị trí tương đối cho card */
+}
+
+
+.show-text {
+    font-size: 10px;
+    
+}
+
+.bnt1 {
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.large-list {
+    font-size: 2.2em; /* Tăng kích thước của văn bản */
+    background-color: #f9f9f9;
+}
+.large-list {
+    background-color: #f9f9f9; /* Thay đổi màu nền của danh sách */
+    padding: 10px; /* Thêm padding để tạo khoảng cách xung quanh danh sách */
+}
+
+.list-group-item {
+    background-color: white; /* Thay đổi màu nền của mỗi mục trong danh sách */
+    border: none; /* Loại bỏ viền của mục trong danh sách */
+}

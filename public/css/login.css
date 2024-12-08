@@ -1,0 +1,129 @@
+
+.from-login {
+
+    margin: 40px auto; /* Canh giữa phần tử theo chiều ngang */
+    padding: 20px; /* Khoảng cách bên trong phần tử là 20px */
+    border: none; /* Viền với độ dày 4px và màu đen */
+    border-radius: 5px; /* Bo tròn góc với bán kính 5px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần tử */
+    text-align: center; /* Căn giữa nội dung bên trong */
+    background-color: white;
+    width: 600px;
+    height: auto;
+
+    /* margin-right: 40px; */
+    
+
+}
+
+.from-login h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif; /* Chọn font chữ */
+    font-weight: bold; /* In đậm */
+    text-transform: uppercase; /* Chữ in hoa */
+    color: #333; /* Màu chữ */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Đổ bóng chữ */
+
+}
+
+.form-group {
+    margin-bottom: 15px; /* Khoảng cách phía dưới là 15px */
+}
+
+.form-group label {
+    font-size: 25px; /* Cỡ chữ là 25px */
+    display: block; /* Hiển thị nhãn trên một dòng mới */
+    margin-bottom: 5px; /* Khoảng cách phía dưới là 5px */
+    text-align: left; /* Căn lề nội dung về phía trái */
+}
+
+input:focus {
+    border-color: black; /* Thay đổi màu viền thành màu đen khi input được focus */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: none; /* Loại bỏ viền xung quanh input */
+    border-radius: 0; /* Không bo tròn góc */
+    border-bottom: 2px solid black; /* Hiển thị viền dưới với độ dày 2px và màu đen */
+}
+.form-group input:focus {
+    outline: none; /* Loại bỏ viền khi input được focus */
+}
+
+.text-danger {
+    color: red; /* Màu chữ đỏ */
+    font-size: 14px; /* Cỡ chữ là 14px */
+}
+
+.btn1 {
+    display: block; /* Hiển thị như block */
+    width: 100%; /* Chiều rộng 100% */
+    padding: 10px; /* Khoảng cách bên trong 10px */
+    border: none; /* Không viền */
+    border-radius: 5px; /* Bo tròn góc với bán kính 5px */
+    background-color:#04AA6D; /* Màu nền là xanh dương */
+    color: white; /* Màu chữ trắng */
+    cursor: pointer; /* Con trỏ thành hình bàn tay khi di chuột vào */
+
+}
+
+.btn1:hover {
+    background-color: #0056b3; /* Thay đổi màu nền thành xanh dương khi hover */
+}
+
+.password-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.password-toggle input {
+    flex: 1;
+    padding: 5px;
+}
+
+.password-toggle button {
+   
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input {
+    padding-right: 30px; /* Để tạo khoảng trống bên phải cho nút */
+}
+
+.input-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.input-container button:focus {
+    outline: none; /* Loại bỏ viền khi nút được focus */
+}
+
+.input-container button:active {
+    outline: none; /* Loại bỏ viền khi nút được click */
+}
+
+.from-login p{
+    margin-top: 7px;
+}
+.logo{
+    border-bottom: 2px solid rgb(17, 15, 15);
+    margin-bottom: 50px;
+    padding: 10px;
+   
+}

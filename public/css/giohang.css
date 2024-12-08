@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  .text-end {
+    text-align: end;
+  }
+  .container{
+    margin: 10px auto;
+  }
+
+  .pxp {
+    margin-left: 100px;
+    font-size: 20px;
+}
